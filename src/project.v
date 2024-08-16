@@ -16,7 +16,7 @@ module tt_um_SUMADOR1BIT (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-wire s1,cl,s2;
+wire s1,c1,s2;
 
     C_XOR U1 (.OUT(s1), .A(ui_in[0]), .B(ui_in[1]));
     C_AND U2 (.OUT(c1), .A(ui_in[0]), .B(ui_in[1]));
